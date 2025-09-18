@@ -1,69 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Watch X</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" href="style.css">
+ 
 </head>
+ 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-  </div>
-</nav>
- <h1>smartwatch</h1>
-    <img src="images\download.jpg" alt="watch"></img>
-      <section id="features">
-    <h2>Features</h2>
-    <div class="feature-box">
-      <i class="fa fa-heartbeat"></i>
-      <h3>Heart Rate Monitoring</h3>
-      <p>Track your heart rate in real-time.</p>
-    </div>
-    <div class="feature-box">
-      <i class="fa fa-map-marker"></i>
-      <h3>GPS Tracking</h3>
-      <p>Track your runs, hikes, and more.</p>
-    </div>
-    <div class="feature-box">
-      <i class="fa fa-battery-full"></i>
-      <h3>Long Battery Life</h3>
-      <p>Up to 5 days of battery life.</p>
+  </nav>
+ 
+  <!-- Hero section  -->
+  <section id="hero" class="heroSecrion">
+    <div class="container maindiv">
+      <h1>smartwatch</h1>
+      <img src="https://www.gonoise.com/cdn/shop/files/Artboard_16.webp?v=1748757801" alt="watch"></img>
     </div>
   </section>
+ 
+  <!-- Features -->
+  <section id="features">
+    <h2>Features</h2>
+    <div class="feat-container">
+      <div class="feature-box">
+        <i class="fa fa-heartbeat"></i>
+        <h3>Heart Rate Monitoring</h3>
+        <p>Track your heart rate in real-time.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fa fa-map-marker"></i>
+        <h3>GPS Tracking</h3>
+        <p>Track your runs, hikes, and more.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fa fa-battery-full"></i>
+        <h3>Long Battery Life</h3>
+        <p>Up to 5 days of battery life.</p>
+      </div>
+    </div>
+ 
+  </section>
+ 
+  <!-- Pricing -->
   <section id="pricing">
     <h2>Pricing</h2>
     <div class="pricing-card">
@@ -91,6 +113,8 @@
       </ul>
     </div>
   </section>
+ 
+  <!-- contact -->
   <section id="contact">
     <h2>Contact</h2>
     <form id="contact-form">
@@ -100,7 +124,12 @@
       <input class="btn btn-primary" type="submit" value="Submit">
     </form>
   </section>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+ 
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
+ 
 </html>

@@ -86,3 +86,11 @@ header nav a {
   border: 1px solid #2a7b9b;
   border-radius: 10px;
 }
+ 
+#pricing {
+  text-align: center;
+}
+
+#contact {
+  text-align: center;
+}

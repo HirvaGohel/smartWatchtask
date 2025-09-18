@@ -93,3 +93,15 @@ header nav a {
 #contact {
   text-align: center;
 }
+ 
+#contact {
+  margin: 20px;
+}
+
+.button, input, optgroup, select, textarea
+ {
+  margin: 20px;
+  border-color: #26292a;
+  border-radius: 10px;
+
+ }

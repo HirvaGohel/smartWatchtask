@@ -116,3 +116,17 @@ header nav a {
   text-align: left;
  }
  
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.btn-primary:hover {
+  background-color: #3e8e41;
+  border-color: #3e8e41;
+}

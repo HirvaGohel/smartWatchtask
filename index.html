@@ -130,57 +130,39 @@
     <div class="space-y-6">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4"><div>
     <label class="block text-white mb-2 font-medium"></label>
-      Full Name<!--Full Name --> 
-    <span class="text-red-400"> </span>
-    <input required="" type="text" placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border transition-all duration-300 border-white/20 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent" name="name" value="">
-  </div>
-  <div>
-    <label class="block text-white mb-2 font-medium"></label>
-      Email Address<!-- -->
-    <span class="text-red-400"> </span>
-    <input required="" type="email" placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border transition-all duration-300 border-white/20 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent" name="email" value="">
-    </div>
-    </div>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    <div>
-    <label class="block text-white mb-2 font-medium"></label>
-    Phone Number<!-- --> 
-    <span class="text-[var(--muted)] text-xs"> (optional)</span>
-    <input type="tel" placeholder="+1 (555) 123-4567" class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border transition-all duration-300 border-white/20 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent" name="phone" value="">
-    </div>
-    <div>
-    <label class="block text-white mb-2 font-medium"></label>
-    Message 
-    <span class="text-red-400"> </span>
-    </label>
-    <textarea required="" name="message" rows="6" placeholder="Tell me about your project, ideas, or just say hello..." class="w-full px-4 py-3 rounded-xl bg-white/10 text-white border transition-all duration-300 resize-none border-white/20 focus:outline-none focus:ring-2 focus:ring-[var(--primary)] focus:border-transparent">
-    </textarea>
-    <div class="mt-2 flex justify-between text-xs text-[var(--muted)]">
-    </div>
-    </div>
-    <div class="pt-4">
-    <button class="group relative inline-flex items-center justify-center 
-    overflow-hidden rounded-full px-6 py-3 text-sm font-semibold
-    transition-all duration-300 ease-out
-    hover:scale-105 focus:outline-none focus:ring-2 
-    focus:ring-[var(--primary)] focus:ring-offset-2
-    focus:ring-offset-black disabled:opacity-50 
-    disabled:cursor-not-allowed disabled:hover:scale-100
-    bg-transparent text-white
-    hover:bg-[var(--primary)]/10 backdrop-blur-md
-    w-full justify-center">
-  <div class="absolute -inset-px rounded-full bg-gradient-to-r from-[var(--primary)] via-blue-500 via-purple-500 to-[var(--primary)] animate-moving-border opacity-80">
-  <div class="w-full h-full rounded-full bg-black/90 backdrop-blur-md m-[1px]">
-  </div>
-  </div>
-  <div class="absolute inset-0 -translate-x-full group-hover:translate-x-full bg-gradient-to-r from-transparent via-white/15 to-transparent transition-transform duration-500 ease-out rounded-full">
-  </div>
-  <div class="relative z-10 flex items-center gap-2">
-  <span class="opacity-100">Send Message</span>
-  <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="transition-transform group-hover:translate-x-1" height="16" width="16" xmlns="http://www.w3.org/2000/svg"></svg>
-  <line x1="5" y1="12" x2="19" y2="12"></line>
-  <polyline points="12 5 19 12 12 19"></polyline>
-</div></button></div></div></form>
+      <div class="container mt-5">
+<h2 class="text-center mb-4">Contact Us</h2>
+<form class="row g-3">
+<!-- Name -->
+<div class="col-md-6">
+<label for="name" class="form-label">Full Name</label>
+<input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+</div>
+ 
+      <!-- Email -->
+<div class="col-md-6">
+<label for="email" class="form-label">Email Address</label>
+<input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+</div>
+ 
+      <!-- Subject -->
+<div class="col-12">
+<label for="subject" class="form-label">Subject</label>
+<input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+</div>
+ 
+      <!-- Message -->
+<div class="col-12">
+<label for="message" class="form-label">Message</label>
+<textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+</div>
+ 
+      <!-- Submit Button -->
+<div class="col-12 text-center">
+<button type="submit" class="btn btn-primary px-5">Send Message</button>
+</div>
+</form>
+</div>
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
